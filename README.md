@@ -1,6 +1,7 @@
 # Sentiment analysis and entity recognition
 combined named entity recognition with sentiment analysis on Yelp reviews to recommend the best dishes for each restaunt
 
+## files
 ```bash
 1. businesses.json: raw file containing restaurant data
 2. menus.json: raw file containing menu data
