@@ -1,30 +1,5 @@
-# A Contextual Recommendation Reporting System for Local Businesses
+# Sentiment analysis and entity recognition
 combined named entity recognition with sentiment analysis on Yelp reviews to recommend the best dishes for each restaunt
-
-## Project environment
-1. Used Google colab as implementation environment
-2. To connect to google drive from colab:
-
-```bash
-from google.colab import drive
-drive.mount("/content/drive",force_remount=True)
-```
-
-
-## Project folder setup
-1. Create a folder named CSE_538 on google drive
-2. Upload the all files and folders in directory CSE_538 or change the path variables in the code accordingly.
-3. directory path for google colab will be:
-
-```bash
-/content/drive/My Drive/CSE_538
-```
-4. To navigate to above directory in google colab:
-
-```bash
-cd /content/drive/My Drive/CSE_538
-```
-5. The project folder will contain the below files:
 
 ```bash
 1. businesses.json: raw file containing restaurant data
